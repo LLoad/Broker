@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{00de6404-def9-4220-accf-f34db47dd751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{1a9f7235-1c2e-404d-a5a0-739fff5493eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonFormat">
+      <UniqueIdentifier>{2f1a65a6-c56f-40f5-b9d6-cc5a1101655c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setup">
+      <UniqueIdentifier>{3939da7a-f633-489c-82a5-fc9ee8f0b9ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="System\Main.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Client.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Thread.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkDefine.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\HttpClient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\JsonObject.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonFormat\ApiKeyFormat.cpp">
+      <Filter>JsonFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonFormat\LoginFormat.cpp">
+      <Filter>JsonFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\WsClient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\VixMetaClient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonFormat\VixEvtMetaParser.cpp">
+      <Filter>JsonFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonFormat\PluxityEvtMetaFormat.cpp">
+      <Filter>JsonFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Util.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Logger.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\VixMetaOption.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Broker.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Setup\Setup.cpp">
+      <Filter>Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="Setup\VixServerInfo.cpp">
+      <Filter>Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="Setup\PluxityServerInfo.cpp">
+      <Filter>Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PluxityMetaClient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonFormat\VixEvtAlmMetaParser.cpp">
+      <Filter>JsonFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="System\VixMetaParser.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\Type.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ErrorType.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Broker.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkDefine.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Client.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Thread.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\HttpClient.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Util.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\JsonObject.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonFormat\ApiKeyFormat.h">
+      <Filter>JsonFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonFormat\LoginFormat.h">
+      <Filter>JsonFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\WsClient.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\VixMetaClient.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonFormat\VixEvtMetaParser.h">
+      <Filter>JsonFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonFormat\PluxityEvtMetaFormat.h">
+      <Filter>JsonFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Logger.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\VixMetaOption.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Setup\Setup.h">
+      <Filter>Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Setup\VixServerInfo.h">
+      <Filter>Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Setup\PluxityServerInfo.h">
+      <Filter>Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\PluxityMetaClient.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonFormat\VixEvtAlmMetaParser.h">
+      <Filter>JsonFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="System\VixMetaParser.h">
+      <Filter>System</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

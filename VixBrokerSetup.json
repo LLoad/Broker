@@ -1,0 +1,30 @@
+{
+    "Version": "0.0.1",
+    "Revision": "0001",
+    "VixCount": 1,
+    "VixServerInfo": [
+        {
+            "ServerID": 113,
+            "IP": "127.0.0.1",
+            "Port": 7681,
+            "RcvQueCntFromServer": 1,
+            "LoginInfo": {
+                "id": "intellivix",
+                "pw": "pass0001!",
+                "keepAliveTimeOut": 600000
+            }
+        }
+    ],
+    "PluxityServerInfo":
+        {
+            "IP": "27.102.205.66",
+            "port": 8130,
+            "evt_url": "/itf/api/event/cctv",
+            "api-key": "a7a37cfce20b4a63947f11038b251a2d",
+            "LoginInfo":
+                {
+                    "id": "api_cctv",
+                    "pw": "api_cctv1!"
+                }
+        }
+}
